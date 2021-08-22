@@ -1,0 +1,126 @@
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    font-size: 45px;
+    background-color: #070707;
+}
+
+.container-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1300px;
+    height: 900px;
+    border-radius: 20px;
+    background-image: url(./image/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+}
+
+.container-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px 50px;
+    flex-grow: 1;
+    width: 500px;
+    height: 760px;
+    margin: 30px 30px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.button {
+    background-color: #4484F2;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.or {
+    display: flex;
+    flex-direction: row;
+    width: 490px;
+}
+
+#hr-left {
+    display: flex;
+    width: 220px;
+    height: 2px;
+    background-color: #585858;
+}
+
+#or {
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin: -10px 20px;
+}
+
+#hr-right {
+    display: flex;
+    width: 220px;
+    height: 2px;
+    background-color: #585858;
+}
+
+.input-email {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-style: solid;
+    width: 450px;
+    height: 80px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.button-continue {
+    width: 490px;
+    height: 80px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3C3C3C;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+    padding: 40px 50px;
+    width: 500px;
+    height: 760px;
+    margin: 30px 30px;
+}
+
+#slogan {
+    color: #C2BFBF;
+    font-size: 40px;
+}
+
+#content {
+    color: #C2BFBF;
+    font-size: 25px;
+}
